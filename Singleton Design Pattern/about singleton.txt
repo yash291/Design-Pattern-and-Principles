@@ -1,0 +1,2 @@
+Create only 1 object and then reuse it everytime.
+e.g CRUD operations in DB
