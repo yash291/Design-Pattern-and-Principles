@@ -1,0 +1,43 @@
+Create only 1 object and then reuse it everytime.
+e.g CRUD operations in DB
+
+Ways to make Singleton Design Pattern:
+1.) Make constructor private
+2.) We have to make method static as in non static method we have to create objects.
+3.) 
+4.) 
+
+Error: Cannot find symbol 
+Solution: run from parent folder as it is relating with the parent path
+
+Lazy Initialization:
+When client called then only object is created.
+
+Eager Initialization:
+Without calling we created it.
+
+Disadvantages of Eager way:
+CLient doesn't want it but still object is created at time of class loading.
+
+Disadvantages of Lazy way:
+Case 1: If single thread then it is ok
+Case 2: When multiple threads then it is not ok. 
+Solution: Create synchonized way of creating threads.
+
+How can we break Singleton Design Pattern ?
+We can break it by using reflection API because it allows us to change class properties dynamically at runtime.
+1.) Reflection API helps us to access private constructors by changing them at runtime.
+2.) We can break it if we serialize our object and then deserialize it.
+3.) We can break Singleton design Pattern if we do cloning of objects.
+
+Solution : How can we prevent getting called our private constructor using Reflection API:
+1.) If object exists we throw exception from inside constructor.
+2.) Use Enum
+3.) Solution for serialize and deserialize: Implementing method readResolve(). at it called when we do serialization and deserialization
+4.) Solution for cloning: override clone method and return the same instance of samosa.
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Factory pattern deals with creation of objects of single type while abstract factory pattern deals with the 
+creation of objects of related types.
+
+Creates families of related class without imposing their concrete classes.
+e.g : Computer Factory -> Laptop Factory -> Types of Laptops
+Computer Factory -> PC Factory -> Types of PC
+
+It is factory of factories.
+
+Advantages:
+1.) Provides approach to code for interface rather than implementation
+2.) Factory of factories
+3.) Robust and avoids conditional logic of Factory pattern.
+

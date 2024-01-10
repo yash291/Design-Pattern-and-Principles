@@ -1,0 +1,14 @@
+It is a creational design pattern.
+Need : When there is a superclass and multiple subclasses
+We create objects  without exposing the creation logic to the client and refer to newly created object using a 
+common interface.
+
+Client should not be responsible for creation of objects.
+Class should not be tightly coupled 
+Hence we need Factory design pattern.
+
+Advantages:
+Focus on interface not on implementation.
+We get loose coupling
+Code is more robust
+
