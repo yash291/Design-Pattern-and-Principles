@@ -1,0 +1,7 @@
+Shallow Copy:
+Copies the reference not actual object.
+
+Deep Copy:
+Copies each value of object not reference.
+
+It is used in prototype design pattern

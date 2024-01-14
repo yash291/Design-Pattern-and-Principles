@@ -1,0 +1,16 @@
+Real life example:
+Suppose we have 2 phones : one is Iphone and other is Android and we dont have charging cable of Android. So by using
+connector.
+
+We will connect 1 phone to connector and then that connector to the Android phone.
+
+Adapter provides connectivity so one object can use other object property .
+
+
+
+
+
+
+
+
+

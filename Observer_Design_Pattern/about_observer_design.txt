@@ -1,0 +1,12 @@
+This is a behavioural design pattern.
+This focus in the interaction between objects.
+
+e,g Youtube subscriber + notification
+
+There is one subject which has multiple dependent objects.(observer)
+As state change observer gets notified.
+Subscribe + Notify
+
+As a subject take youtube channel and observer will be the subscribers.
+
+

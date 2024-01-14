@@ -1,0 +1,13 @@
+Problems of Factory Design Pattern:
+1.) If there are multiple parameters then we have to pass all of them into the constructors.
+problem is a.) to remember the order.
+           b.) If any parameter is optional then we have to overload the constructor.
+Factory class takes all the responsibility by creating an object. If the object is heavy then all the complexity
+is part of factory class.
+
+Solution: Create object step by step.; Use builder Pattern
+
+builder pattern helps in creating objects that are immutable. by not giving setter methods 
+If we give setter methods then it is mutable.
+
+
